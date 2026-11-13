@@ -1,1 +1,42 @@
+a = 15 
+b = 42 
+c = 8
 
+if a <= b and a <= c:
+   if b <= c:
+      primero, segundo, tercero = a, b, c 
+else:
+    primero, segundo, tercero = a, b, c 
+elif b <= a and b <= c:
+   if a <= c: 
+       primero, segundo, tercero = b, a, c
+else: 
+    primero, segundo, tercero = b, c, a
+else: 
+    if a <= b:
+          primero, segundo, tercero = c, a, b 
+else:
+    primero, segundo, tercero = c, b, a
+print(f"Ordenados: {primero}, {seguundo}, {tercero}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=
